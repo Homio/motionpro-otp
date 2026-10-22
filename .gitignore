@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 配置含明文种子，备份/数据库含加密种子，均不应提交
+sites.json
+config.json
+*.ab
+*.db
+.env
+
+# 其他本地文件
+*.log
+.DS_Store
